@@ -50,22 +50,6 @@ const Navbar = () => {
 
         {/* RIGHT: Admin + Sign In grouped together */}
         <div className="flex items-center gap-2 sm:gap-3">
-          <Link
-            href="/admin/dashboard"
-            className="
-              hidden sm:inline-flex
-              items-center justify-center
-              px-4 py-2
-              rounded-full
-              text-sm font-medium
-              border border-luxury-border
-              bg-black/30 text-luxury-text
-              hover:bg-white/5 transition
-            "
-          >
-            Admin Console
-          </Link>
-
           <CustomButton
             title="Sign In"
             btnType="button"
